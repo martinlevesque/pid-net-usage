@@ -1,0 +1,33 @@
+{
+  "name": "pid-net-usage",
+  "version": "0.0.1",
+  "description": "Find the network usage for a given process PID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinlevesque/pid-net-usage.git"
+  },
+  "keywords": [
+    "networking",
+    "bytes rcvd",
+    "bytes sent"
+  ],
+  "author": "Martin Levesque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinlevesque/pid-net-usage/issues"
+  },
+  "homepage": "https://github.com/martinlevesque/pid-net-usage#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+  }
+}
